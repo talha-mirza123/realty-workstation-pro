@@ -1,8 +1,0 @@
-{
-    "name" : "Realty Workstation Pro",
-    "version" : "1.0.31",
-    "download_url" : "http://example.com/plugin-name-1.0.31.zip",
-    "sections" : {
-        "description" : "Plugin description here. You can use HTML."
-    }
-}
