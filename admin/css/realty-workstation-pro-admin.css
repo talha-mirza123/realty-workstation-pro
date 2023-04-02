@@ -1,0 +1,197 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+/* CSS for Icon */
+ul.pagination li a {
+    text-decoration: none;
+}
+.toplevel_page_realty-workstation-pro-settings a {
+    font-size: 13px !important;
+}
+.toplevel_page_realty-workstation-pro-settings img {
+    width: 16px;
+    opacity: 1 !important;
+    display: inline-block !important;
+}
+/* CSS for Icon */
+
+.realty-workstation-pro-settings-div .margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+.realty-workstation-pro-settings-div .form-group {
+    margin-bottom: 1rem;
+}
+.realty-workstation-pro-settings-div .form-group.wd-50 {
+    width: 49%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.realty-workstation-pro-settings-div .form-group textarea {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group select {
+    width: 100%;
+    max-width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group input[type="text"] {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group input[type="email"] {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group input[type="password"] {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group input[type="number"] {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.realty-workstation-pro-settings-div .form-group-checkbox label {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.realty-workstation-pro-settings-div .alert.alert-success {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #721c24;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.realty-workstation-pro-settings-div .alert.alert-danger {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: none;
+}
+.swal2-title {
+    line-height: 1;
+}
+.realty-workstation-pro-settings-div .btn-delete {
+    background: #c82333 !important;
+    border-color: #c82333 !important;
+}
+.realty-workstation-pro-settings-div .action.active {
+    background-color: #135e96;
+    color: white;
+}
+.realty-workstation-pro-settings-div .rw-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.realty-workstation-pro-settings-div .rw-card {
+    max-width: 100%;
+    padding: 0;
+}
+.realty-workstation-pro-settings-div .rw-card {
+    position: relative;
+    margin-top: 20px;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    box-sizing: border-box;
+}
+.realty-workstation-pro-settings-div .rw-card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.realty-workstation-pro-settings-div .rw-card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.realty-workstation-pro-settings-div .rw-card-header h2 {
+    margin: 0.2em 0;
+}
+.realty-workstation-pro-settings-div .rw-card-header h2.fs-larger {
+    font-size: larger;
+}
+.realty-workstation-pro-settings-div .rw-card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.realty-workstation-pro-settings-div .rw-card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+.realty-workstation-pro-settings-div .rw-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.realty-workstation-pro-settings-div .button-group {
+    width: 100%;
+}
+.realty-workstation-pro-settings-div .rw-button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 33%;
+    cursor: pointer;
+}
+.realty-workstation-pro-settings-div .close-agent-transaction-btn {
+    margin-left: 1rem;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.realty-workstation-pro-settings-div .close-broker-transaction-btn {
+    margin-left: 1rem;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.realty-workstation-pro-settings-div #broker_referral {
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+.dataTables_wrapper .dataTables_length select {
+    appearance: auto;
+    background: none;
+}
+.realty-workstation-pro-settings-div .button-group {
+    text-align: center;
+}
