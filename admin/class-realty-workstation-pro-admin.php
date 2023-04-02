@@ -4,8 +4,8 @@ require_once( REALTY_WORKSTATION_PRO_PATH . 'libraries/simplexlsxgen/vendor/auto
 require_once( REALTY_WORKSTATION_PRO_PATH . 'libraries/simplexlsx/vendor/autoload.php' );
 use Shuchkin\SimpleXLSX;
 require_once( REALTY_WORKSTATION_PRO_PATH . 'libraries/zip/vendor/autoload.php' );
-require_once REALTY_WORKSTATION_PRO_PATH . 'wp-gitlab-updater/src/plugin-updater.php';
-require_once REALTY_WORKSTATION_PRO_PATH . 'wp-gitlab-updater/src/updater-base.php';
+require REALTY_WORKSTATION_PRO_PATH . 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 /**
  * The admin-specific functionality of the plugin.
@@ -111,6 +111,11 @@ class Realty_Workstation_Pro_Admin {
 		wp_enqueue_script( $this->plugin_name . '-maskMoney', plugin_dir_url( __FILE__ ) . 'js/jquery.maskMoney.min.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/realty-workstation-pro-admin.js', array( 'jquery' ), $this->version, false );
 		wp_localize_script( $this->plugin_name, 'rw_object', array( 'admin_url' => admin_url() ) );
+		$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+			'http://example.com/path/to/details.json',
+			__FILE__, //Full path to the main plugin file or functions.php.
+			'realty-workstation-pro'
+		);
 
 	}
 
