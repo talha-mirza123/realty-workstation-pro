@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://realtyworkstation.com/
- * @since             1.0.32
+ * @since             1.0.33
  * @package           Realty_Workstation_Pro
  *
  * @wordpress-plugin
  * Plugin Name:       Realty Workstation Pro
  * Plugin URI:        https://realtyworkstation.com/
  * Description:       With Realty Workstation Pro real estate brokers and team leaders can to process their agents’ transactions, archive all transaction related documentation and calculate commissions.
- * Version:           1.0.32
+ * Version:           1.0.33
  * Author:            Realty Workstation
  * Author URI:        https://realtyworkstation.com/
  * License:           GPL-2.0+
@@ -32,10 +32,10 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 1.0.32 and use SemVer - https://semver.org
+ * Start at version 1.0.33 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'REALTY_WORKSTATION_PRO_VERSION', '1.0.32' );
+define( 'REALTY_WORKSTATION_PRO_VERSION', '1.0.33' );
 define( 'REALTY_WORKSTATION_PRO_PATH', plugin_dir_path( __FILE__ ) );
 define( 'REALTY_WORKSTATION_PRO_URL', plugin_dir_url( __FILE__ ) );
 
@@ -73,7 +73,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-realty-workstation-pro.php
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.32
+ * @since    1.0.33
  */
 function run_realty_workstation_pro() {
 
@@ -90,3 +90,4 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'realty-workstation-pro'
 );
+$myUpdateChecker->setAuthentication('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');
