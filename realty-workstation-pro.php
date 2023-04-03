@@ -90,4 +90,4 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'realty-workstation-pro'
 );
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
